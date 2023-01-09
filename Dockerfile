@@ -1,21 +1,27 @@
 # Use the official gradle image to create a build artifact.
 # https://hub.docker.com/_/gradle
-FROM gradle:4.10 as builder
+FROM maven: 3 - alpine
 
-# Copy local code to the container image.
-COPY build.gradle .
-COPY src ./src
+MAINTAINER XenonStack
 
-# Build a release artifact.
-RUN gradle clean build --no-daemon
+# Creating Application Source Code Directory
+RUN mkdir - p / usr / src / app
 
-# Use the Official OpenJDK image for a lean production stage of our multi-stage build.
-# https://hub.docker.com/_/openjdk
-# https://docs.docker.com/develop/develop-images/multistage-build/#use-multi-stage-builds
-FROM openjdk:8-jre-alpine
+# Setting Home Directory
+for containers
+WORKDIR / usr / src / app
 
-# Copy the jar to the production image from the builder stage.
-COPY --from=builder /home/gradle/build/libs/gradle.jar /depression.jar
+# Copying src code to Container
+COPY. / usr / src / app
 
-# Run the web service on container startup.
-CMD [ "java", "-jar", "-Djava.security.egd=file:/dev/./urandom", "/depression.jar" ]
+# Building From Source Code
+RUN mvn clean package
+
+# Setting Persistent drive
+VOLUME["/kotlin-data"]
+
+# Exposing Port
+EXPOSE 8080
+
+# Running Kotlin Application
+CMD[&quot;java&quot;, &quot;-jar&quot;, &quot;target/<name jar="" kotlin="" of="" your="">.jar&quot;]
