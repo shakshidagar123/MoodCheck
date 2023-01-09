@@ -3,15 +3,6 @@ buildscript {
         compose_ui_version = '1.1.1'
     }
 }// Top-level build file where you can add configuration options common to all sub-projects/modules.
-
-jar {
-    manifest {
-        attributes 'Main-Class': 'MainActivity.kt'
-        
-    }
-    
-}
-
 plugins {
     id 'com.android.application' version '7.3.0' apply false
     id 'com.android.library' version '7.3.0' apply false
@@ -19,6 +10,27 @@ plugins {
     id 'org.jetbrains.kotlin.jvm' version '1.2.21'
     id 'com.github.johnrengelman.shadow' version '2.0.2'
 }
+apply plugin: 'application'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.jetbrains.kotlin:kotlin-stdlib-jre8'
+}
+
+archivesBaseName = 'step-by-step-kotlin'
+mainClassName= 'MainActivity.kt'
+jar {
+    manifest {
+        attributes 'Main-Class': 'MainActivity.kt'
+        
+        
+    }
+    
+}
+
 
 apply plugin: 'application'
 
