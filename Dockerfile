@@ -15,7 +15,7 @@ RUN gradle clean build --no-daemon
 FROM openjdk:8-jre-alpine
 
 # Copy the jar to the production image from the builder stage.
-COPY --from=builder /home/gradle/build/libs/gradle.jar /helloworld.jar
+COPY --from=builder /home/gradle/build/libs/gradle.jar /depression.jar
 
 # Run the web service on container startup.
-CMD [ "java", "-jar", "-Djava.security.egd=file:/dev/./urandom", "/helloworld.jar" ]
+CMD [ "java", "-jar", "-Djava.security.egd=file:/dev/./urandom", "/depression.jar" ]
