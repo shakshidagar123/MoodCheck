@@ -6,10 +6,10 @@ buildscript {
 
 jar {
     manifest {
-        attributes 'Main-Class': mainClassName
+        attributes 'Main-Class': 'MainActivity.kt'
         
     }
-    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    
 }
 
 plugins {
