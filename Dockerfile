@@ -1,27 +1,14 @@
-# Use the official gradle image to create a build artifact.
-# https://hub.docker.com/_/gradle
-FROM maven: 3 - alpine
+ARG VERSION=8u151
 
-MAINTAINER XenonStack
+FROM openjdk:${VERSION}-jdk as BUILD
 
-# Creating Application Source Code Directory
-RUN mkdir - p / usr / src / app
+COPY . /src
+WORKDIR /src
+RUN ./gradlew --no-daemon shadowJar
 
-# Setting Home Directory
-for containers
-WORKDIR / usr / src / app
+FROM openjdk:${VERSION}-jre
 
-# Copying src code to Container
-COPY. / usr / src / app
+COPY --from=BUILD /src/build/libs/step-by-step-kotlin-all.jar /bin/runner/run.jar
+WORKDIR /bin/runner
 
-# Building From Source Code
-RUN mvn clean package
-
-# Setting Persistent drive
-VOLUME["/kotlin-data"]
-
-# Exposing Port
-EXPOSE 8080
-
-# Running Kotlin Application
-CMD[&quot;java&quot;, &quot;-jar&quot;, &quot;target/<name jar="" kotlin="" of="" your="">.jar&quot;]
+CMD ["java","-jar","run.jar"]
