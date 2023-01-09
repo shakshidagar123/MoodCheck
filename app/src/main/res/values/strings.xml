@@ -1,0 +1,140 @@
+<resources>
+        <string name="Symptoms">Symptoms</string>
+        <string name="Depress">Depression</string>
+    <string name="app_name">DEPRESSION</string>
+    <string name="mentalhealth">Mental Health App</string>
+    <string name="Moodcheck">Mood Check</string>
+        <string name="anxiety">Anxiety</string>
+    <string name="eating">Eating Disorder</string>
+    <string name="adhd">ADHD</string>
+    <string name="addiction">Addiction</string>
+        <string name="Describe">Depression is a mood disorder that causes a persistent feeling of sadness and loss of interest. Also called major depressive disorder or clinical depression, it affects how you feel, think and behave  and can lead to a variety of emotional and physical problems. You may have trouble doing normal day-to-day activities, and sometimes you may feel as if life isn’t worth living. Depression is common all over the world. Healthcare providers estimate that nearly 7% of American adults have depression every year. More than 16% of US adults- around 1 in 6 - will experience depression in their lifetime. A diagnosis major depressive disorder (clinical depression) means you have felt sad, low or worthless most days for at least two weeks while also having other symptoms such as sleep problems , loss of interest in activities, or change in appetite. Without treatment, depression can get worse and last longer. In severe cases, it can lead to self-harm or death. Over 700 000 people die due to suicide every year. Suicide is the fourth leading cause of death in 15-29-year-olds. Although there are known , effective treatments for mental disorders, more than 75% of people in low and middle-income counties receive no treatment. Barriers to effective care include a lack resources, lack of trained health-care providers and social stigma associated with mental disorders. In countries of all income levels, people who experience depression are often not correctly diagnosed, and others who do not have the disorder are too often misdiagnosed and prescribed antidepressants.</string>
+        <string name="St">Although depression may occur only once during your life, people typically have multiple episodes.</string>
+<string name="Causes">Causes</string>
+<string name="Ct">It is not known exactly what causes depression. As with many mental disorders, a variety of factors may be involved.</string>
+<string name="Prevention">Prevention and Treatment </string>
+<string name="Pt">Depression can be mild or severe. And it can be brief or long-lasting. It’s important to get help right away.</string>
+<string name="sym">SYMPTOMS</string>
+<string name="sp1">•Feeling very sad, hopeless or worried</string>
+<string name="sp2">•Not enjoying things that used to give you joy</string>
+<string name="sp3">•Angry outbursts, irritability or frustration, even over small matters</string>
+<string name="sp4">•Sleep disturbances, including insomnia or sleeping too much</string>
+<string name="sp5">•Tiredness and lack of energy, so even small tasks take extra effort</string>
+<string name="sp6">•Reduced appetite and weight loss or increased cravings for food and weight gain</string>
+<string name="sp7">•Anxiety, agitation or restlessness" </string>
+<string name="Cs">CAUSES</string>
+<string name="cs1">•Brain chemistry: Abnormalities in brain chemical levels may lead to depression.</string>
+<string name="cs2">•Genetics: If you have a relative with depression, you may be more likely to become depressed. </string>
+<string name="cs3">•Life events: Stress, the death of a loved one, upsetting events (trauma), isolation and lack of support can cause depression. </string>
+<string name="cs4">•Personality: People who are easily overwhelmed or have trouble coping may be prone to depression. </string>
+<string name="cs5">•Inherited traits. Depression is more common in people whose blood relatives also have this condition. Researchers are trying to find genes that may be involved in causing depression. </string>
+<string name="Pv">Prevention and Treatment</string>
+<string name="pv1">• Self-help: Regular exercise, getting enough sleep, and spending time with people you care about can improve depression symptoms. </string>
+<string name="pv2">• Counseling: Counseling or psychotherapy is talking with a mental health professional. Your counselor helps you address your problems and develop coping skills. Sometimes brief therapy is all you need. Other people continue therapy longer. </string>
+<string name="pv3">• Alternative medicine: People with mild depression or ongoing symptoms can improve their well-being with complementary therapy. Therapy may include massage, acupuncture, hypnosis and biofeedback. </string>
+<string name="pv4">• Brain stimulation therapy: Brain stimulation therapy can help people who have severe depression or depression with psychosis. Types of brain stimulation therapy include electroconvulsive therapy (ECT), transcranial magnetic stimulation (TMS) and vagus nerve stimulation (VNS). </string>
+<string name="pv5">• Medication: Prescription medicine called antidepressants can help change brain chemistry that causes depression. Antidepressants can take a few weeks to have an effect. Some antidepressants have side effects, which often improve with time. If they don’t, talk to your provider. A different medications may work better for you. </string>
+<string name="Thought">“Try to understand the blackness, lethargy, hopelessness, and loneliness they’re going through. Be there for them when they come through the other side. It’s hard to be a friend to someone who’s depressed, but it is one of the kindest, noblest, and best things you will ever do.”    -Stephen Fry </string>
+        <string name="a1">A mental health disorder characterised by feelings of worry, anxiety or fear that are strong enough to interfere with ones daily activities.Examples of anxiety disorders include panic attacks, obsessive-compulsive disorder and post-traumatic stress disorder. </string>
+        <string name="a2">•Nervousness, restlessness, or being tense</string>
+    <string name="a3">•Feelings of danger, panic, or dread</string>
+        <string name="a4">•Rapid heart rate</string>
+        <string name="a5">•Rapid breathing, or hyperventilation</string>
+        <string name="a6">•Increased or heavy sweating</string>
+        <string name="a7">•Trembling or muscle twitching</string>
+        <string name="a8">•Weakness and lethargy</string>
+        <string name="a9">•Difficulty focusing or thinking clearly about anything other than the thing you’re worried about</string>
+        <string name="a10">•A strong desire to avoid the things that trigger your anxiety</string>
+        <string name="a11">•Obsessions about certain ideas, a sign of obsessive-compulsive disorder (OCD)</string>
+            <string name="a12">•Performing certain behaviors over and over againinsomnia</string>
+    <string name="a13">•Environmental stressors, such as difficulties at work, relationship problems, or family issues</string>
+        <string name="a14">•Genetics, as people who have family members with an anxiety disorder are more likely to experience one themselves</string>
+        <string name="a15">•Medical factors, such as the symptoms of a different disease, the effects of a medication, or the stress of an intensive surgery or prolonged recovery</string>
+        <string name="a16">•Brain chemistry, as psychologists define many anxiety disorders as misalignments of hormones and electrical signals in the brain</string>
+        <string name="a17">•Withdrawal from an illicit substance, the effects of which might intensify the impact of other possible causes</string>
+    <string name="a18">•Take care of your body by eating a well-balanced diet. Include a multivitamin when you cannot always eat right.</string>
+        <string name="a19">•Limit alcohol, caffeine, and sugar consumption.</string>
+        <string name="a20">•Take time out for yourself every day. Even 20 minutes of relaxation or doing something pleasurable for yourself can be restorative and decrease your overall anxiety level.</string>
+    <string name="a21">•Trim a hectic schedule to its most essential items, and do your best to avoid activities you do not find relaxing.</string>
+    <string name="a22">•Keep an anxiety journal. Rank your anxiety on a 1-to-10 scale. Note the events during which you felt anxious and the thoughts going through your mind before and during the anxiety. Keep track of things that make you more anxious or less anxious.</string>
+
+<string name="e1">Eating disorders are behavioral conditions characterized by severe and persistent disturbance in eating behaviors and associated distressing thoughts and emotions. They can be very serious conditions affecting physical, psychological and social function.</string>
+<string name="e2">•Skipping meals or making excuses for not eating</string>
+    <string name="e3">•Adopting an overly restrictive vegetarian diet</string>
+    <string name="e4">•Excessive focus on healthy eating</string>
+    <string name="e5">•Making own meals rather than eating what the family eats</string>
+    <string name="e6">•Withdrawing from normal social activities</string>
+    <string name="e7">•Persistent worry or complaining about being fat and talk of losing weight</string>
+    <string name="e8">•Repeatedly eating large amounts of sweets or high-fat foods</string>
+    <string name="e9">•Expressing depression, disgust, shame or guilt about eating habits</string>
+    <string name="e10">•Use of dietary supplements, laxatives or herbal products for weight loss</string>
+    <string name="e11">•Leaving during meals to use the toilet</string>
+
+    <string name="e12">•A mix of genetics, environment and social factors play a role in the development of eating disorders.</string>
+    <string name="e13">•Some people with eating disorders may use extreme measures to limit food intake or food groups when they feel like other aspects of their lives are hard to manage.</string>
+    <string name="e14">•An obsession with food becomes an unhealthy way of coping with painful emotions or feelings.</string>
+    <string name="e15">•Thus, eating disorders are more about finding healthy way to manage your emotions than about food.</string>
+
+    <string name="e16">•Be a positive role model and choose to live a healthy, well-rounded lifestyle.</string>
+    <string name="e17">•Recognize that health and well-being comes in all shapes and sizes.</string>
+    <string name="e18">•Become aware of the factors that can contribute to the development of eating disorders.</string>
+    <string name="e19">•Do not engage in “fat” talk! Change the conversation or remind yourself not to use it.</string>
+    <string name="e20">•Start to notice and to question the messaging about “beauty” and “ideal body types” that we all receive daily from the media and the people around us. Refuse to accept what the media presents as “beautiful”.</string>
+    <string name="e21">•Talk to all people about eating disorders and unhealthy attitudes or activities.</string>
+    <string name="e22">•Help others to develop self-esteem based on qualities other than physical appearance.</string>
+    <string name="e23">•Get rid of your scale! Numbers can be deceiving and are only one piece of information.</string>
+    <string name="e24">•Avoid calling a food “good” or “bad.” Food is just food.</string>
+    <string name="e25">•Avoid terms like “junk food”. Consider “treat” or “sometimes” foods.</string>
+    <string name="e26">•Make time and space for meals at school or the workplace. Model taking breaks to eat to those around you.</string>
+
+    <string name="ad1">Attention deficit hyperactivity disorder (ADHD) is a mental health condition that can cause unusual levels of hyperactivity and impulsive behaviors. People with ADHD may also have trouble focusing their attention on a single task or sitting still for long periods of time.
+        Many people experience inattention and changes in energy levels. For a person with ADHD, this happens more often and to a greater extent compared with people who don’t have the condition. It can have a significant effect on their studies, work, and home life.</string>
+
+    <string name="ad2">•Having trouble focusing or concentrating on tasks</string>
+    <string name="ad3">•Being forgetful about completing tasks</string>
+    <string name="ad4">•Being easily distracted</string>
+    <string name="ad5">•Having difficulty sitting still</string>
+    <string name="ad6">•Find it difficult to sit still or remain seated, for example, in class</string>
+    <string name="ad7">•Have trouble playing or carrying out tasks quietly</string>
+    <string name="ad8">•Interrupt others when they’re speaking, playing, or carrying out a task</string>
+    <string name="ad9">•Make frequent mistakes or miss details when studying or working</string>
+
+    <string name="ad10">•Despite how common ADHD is, doctors and researchers still aren’t sure what causes the condition. It’s believed to have neurological origins. Genetics may also play a role.</string>
+    <string name="ad11">•ResearchTrusted Source suggests that a reduction in dopamine is a factor in ADHD. Dopamine is a chemical in the brain that helps move signals from one nerve to another. It plays a role in triggering emotional responses and movements.</string>
+
+    <string name="ad12">•During pregnancy, avoid anything that could harm fetal development. For example, do not drink alcohol, use recreational drugs or smoke cigarettes.</string>
+    <string name="ad13">•Protect your child from exposure to pollutants and toxins, including cigarette smoke and lead paint.</string>
+    <string name="ad14">•Limit screen time. Although still unproved, it may be prudent for children to avoid excessive exposure to TV and video games in the first five years of life.</string>
+    <string name="ad15">•Therapy.</string>
+    <string name="ad16">•Maintaining healthy sleep habits.</string>
+    <string name="ad17">•Paying attention to your diet.</string>
+
+    <string name="ct1">Addiction is a treatable, chronic medical disease involving complex interactions among brain circuits, genetics, the environment, and an individual’s life experiences.People with addiction use substances or engage in behaviors that become compulsive and often continue despite harmful consequences.Prevention efforts and treatment approaches for addiction are generally as successful as those for other chronic diseases.</string>
+    <string name="ct2">•Poor performance at work</string>
+    <string name="ct3">•Relationship difficulties, which often involve lashing out at people who identify the addiction</string>
+    <string name="ct4">•An inability to stop using a substance even though it may be causing health problems or personal problems, such as issues with employment or relationships</string>
+    <string name="ct5">•A noticeable lack of energy in daily activities</string>
+    <string name="ct6">•Profound changes in appearance, including weight loss and a noticeable abandonment of hygiene</string>
+    <string name="ct7">•Appearing defensive when asked about substance use</string>
+
+    <string name="ct8">•Family history of addiction. Drug addiction is more common in some families and likely involves an increased risk based on genes. If you have a blood relative, such as a parent or sibling, with alcohol or drug addiction, you are at greater risk of developing a drug addiction.</string>
+    <string name="ct9">•Mental health disorder. If you have a mental health disorder such as depression, attention-deficit/hyperactivity disorder (ADHD) or post-traumatic stress disorder, you are more likely to become addicted to drugs. Using drugs can become a way of coping with painful feelings, such as anxiety, depression and loneliness, and can make these problems even worse.</string>
+    <string name="ct10">•Peer pressure. Peer pressure is a strong factor in starting to use and misuse drugs, particularly for young people.</string>
+    <string name="ct11">•Lack of family involvement. Difficult family situations or lack of a bond with your parents or siblings may increase the risk of addiction, as can a lack of parental supervision.</string>
+    <string name="ct12">•Early use. Using drugs at an early age can cause changes in the developing brain and increase the likelihood of progressing to drug addiction.</string>
+    <string name="ct13">•Taking a highly addictive drug. Some drugs, such as stimulants, cocaine or opioid painkillers, may result in faster development of addiction than other drugs. Smoking or injecting drugs can increase the potential for addiction. Taking drugs considered less addicting — so-called "light drugs" — can start you on a pathway of drug use and addiction.</string>
+
+    <string name="ct14">•Medication-based treatment</string>
+    <string name="ct15">•Behavioral therapy and counseling</string>
+    <string name="ct16">•Medical devices to treat withdrawal</string>
+    <string name="ct17">•Treating related psychological factors, such as depression</string>
+    <string name="ct18">•Ongoing care to reduce the risk of relapse</string>
+    <string name="ct19">•Educate yourself</string>
+    <string name="ct20">•Talking to someone you trust or a therapist</string>
+    <string name="ct21">•Taking a walk or run outdoors</string>
+    <string name="ct22">•Embracing creativity by writing, drawing, painting, or playing an instrument</string>
+    <string name="ct23">•Get Involved in Something You Care About</string>
+    <string name="ct24">•Change your environment.</string>
+    <string name="MoodCheckApp">MoodCheckApp</string>
+    <string name="back_button">Back</string>
+</resources>
